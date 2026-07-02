@@ -5,7 +5,7 @@ test_compute_fft.py contains a code used to validate compute_fft.py, using an an
 
 It outputs:
 - original signal time history
-- slice of the time history to be analyzed, arbitrarily chosen by the user, and frequency spectrum based on it
+- slice of the time history to be analyzed, arbitrarily chosen by the user, and frequency spectrum based on its
 peaks frequencies, amplitudes and rms
 - sampling frequency
 - measurement duration
@@ -15,6 +15,7 @@ The user can choose:
 - time range in which performing the FFT analysis (start and end time)
 - maximum frequency to visualize in the spectrum (which, as theory teaches, is limited by the sampling frequency of the microphone used for the measurement)
 - threshold for which a peak is peaked or not for frequency peak recognizition, as a percentage of the largest peak
+- figure title and y-axis title and units
 
 Files:
 - compute_fft = computes the fft of signal
