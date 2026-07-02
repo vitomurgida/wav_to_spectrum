@@ -14,3 +14,6 @@ The user can choose:
 - maximum frequency to visualize in the spectrum (which, as theory teaches, is limited by the sampling frequency of the microphone used for the measurement)
 - threshold for which a peak is peaked or not for frequency peak recognizition, as a percentage of the largest peak
 
+Files:
+- compute_fft = computes the fft of signal
+- fft_from_wav = reads a .wav file and computes its spectrum using compute_fft
